@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+#styleBox1 {
+  display: none;
+}
+#styleBox2 {
+  width: 50vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 20px;
+  overflow-y: auto;
+}
+#styleBox2::-webkit-scrollbar {
+  display: none;
+}
+.buttonBox {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 4;
+}
+.button {
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  background-color: rgb(168, 241, 85);
+  text-align: center;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  color: rgb(188, 54, 226);
+  cursor: pointer;
+}
