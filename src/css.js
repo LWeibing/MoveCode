@@ -1,5 +1,4 @@
-const string = `
-.skin * {
+const string = `.skin * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -14,18 +13,10 @@ const string = `
 body {
   position: relative;
 }
-.skin {
-  background-color: rgb(224, 144, 153);
-  width: 50vw;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
 .face {
   width: 300px;
   position: absolute;
-  top: 200px;
+  top: 14%;
   left: 50%;
   margin-left: -150px;
 }

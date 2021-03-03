@@ -7,6 +7,17 @@
 *::after {
   box-sizing: border-box;
 }
+.skin {
+  background-color: rgb(224, 144, 153);
+  width: 50vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+body {
+  position: relative;
+}
 #styleBox1 {
   display: none;
 }
@@ -16,7 +27,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  padding: 0 20px;
+  padding: 20px 20px;
   overflow-y: auto;
 }
 #styleBox2::-webkit-scrollbar {
@@ -24,7 +35,7 @@
 }
 .buttonBox {
   position: fixed;
-  top: 20px;
+  top: 10px;
   right: 20px;
   z-index: 4;
 }
@@ -38,4 +49,17 @@
   margin-bottom: 8px;
   color: rgb(188, 54, 226);
   cursor: pointer;
+}
+@media (max-width: 500px) {
+  #styleBox2 {
+    width: 100vw;
+    height: 40vh;
+  }
+  .skin {
+    width: 100vw;
+    height: 60vh;
+    position: absolute;
+    top: 40vh;
+    left: 0;
+  }
 }
